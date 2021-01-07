@@ -1,0 +1,88 @@
+\_form#0=30x14:$ 1 / \sqrt{x} $
+\_form#1=31x10:$ x > 0 $
+\_form#2=8x13:$ f $
+\_form#3=8x13:$ b_l $
+\_form#4=10x13:$ b_r $
+\_form#5=66x26:\[ f = \frac{n}{b_r - b_l}. \]
+\_form#6=61x14:$ O(N \log N) $
+\_form#7=10x10:$ B $
+\_form#8=84x14:\[ t_{rf} = m c / (e B), \]
+\_form#9=20x13:$ c t_{rf} $
+\_form#10=23x11:$ m c^2 $
+\_form#11=5x6:$ c $
+\_form#12=28x14:$ 1 / t_{rf} $
+\_form#13=9x6:$ \omega $
+\_form#14=18x10:$ \omega \, b $
+\_form#15=54x14:$ b = B / B_S $
+\_form#16=80x15:$ B_S = m^2 c^3 / e \hbar $
+\_form#17=48x14:$ f(x) = 0 $
+\_form#18=36x14:$ [x_a, x_b] $
+\_form#19=14x9:$ x_a $
+\_form#20=13x9:$ x_b $
+\_form#21=69x14:$ (x_b - x_a) / 2^n $
+\_form#22=53x14:$ f(x_a) = 0 $
+\_form#23=51x14:$ f(x_b) = 0 $
+\_form#24=63x14:$ (x_a + x_b) / 2 $
+\_form#25=18x13:$ C_m $
+\_form#26=33x10:$ V = 1 $
+\_form#27=73x14:$ L_x \times L_y \times L_z $
+\_form#28=189x28:\[ \mathbf{E} = \sum_m C_m \mathbf{E}_m, \quad \mathbf{B} = \sum_m C_m \mathbf{B}_m, \]
+\_form#29=35x11:$ e^{-i \omega_m t} $
+\_form#30=213x30:\[ \frac{1}{8 \pi} \int_V \left( \mathbf{E}_m \mathbf{E}_l^* + \mathbf{B}_m \mathbf{B}_l^* \right) \, dV = \hbar \omega_m \delta_{ml}, \]
+\_form#31=251x33:\[ I = \frac{1}{8 \pi} \int_V \left( \mathbf{EE}^* + \mathbf{BB}^* \right) \, dV = \sum_m \hbar \omega_m |C_m|^2, \]
+\_form#32=30x15:$ |C_m|^2 $
+\_form#33=13x6:$ m $
+\_form#34=169x30:\[ C_m = -\frac{1}{2 \hbar \omega_m} \int_t \int_V \mathbf{j E}_m^* \, dV \, dt, \]
+\_form#35=101x14:$ \mathbf{j} = -e \mathbf{v} \delta(\mathbf{r} - \mathbf{r}(t)) $
+\_form#36=20x14:$ \mathbf{r}(t) $
+\_form#37=119x14:$ \sim \exp(-i \omega_m t + i \mathbf{k}_m \mathbf{r}) $
+\_form#38=5x9:$ t $
+\_form#39=100x14:$ \exp( i \omega t - i k_x x(t)) $
+\_form#40=100x14:$ \exp( i \omega t + i k_x x(t)) $
+\_form#41=59x14:$ k_x \approx \omega_m / c $
+\_form#42=49x14:$ x(t) \approx c t $
+\_form#43=19x9:$ \mathbf{p_m} $
+\_form#44=39x15:$ p_m^2 = 1 $
+\_form#45=15x9:$ a_m $
+\_form#46=36x14:$ \hbar \omega_m / 8 $
+\_form#47=111x16:$ a_m = (2 \pi \hbar \omega_m / V)^{1/2} $
+\_form#48=275x30:\[ C_m = - \frac{e}{2} \sqrt{ \frac{\pi}{\hbar \omega_m V} } \int_t \mathbf{v p}_m \exp \left[ i \omega_m t - i \mathbf{k}_m \mathbf{r}(t) \right] \, dt. \]
+\_form#49=9x9:$ \mathbf{p} $
+\_form#50=9x6:$ \mathbf{v} $
+\_form#51=36x14:$ \mathbf{ n \cdot r }(t) $
+\_form#52=70x14:$ \mathbf{n} = c \mathbf{k}_m / \omega_m $
+\_form#53=58x11:$ t_0, t_1, t_2, ... $
+\_form#54=18x9:$ \omega_m $
+\_form#55=24x14:$ 1 / \gamma_e $
+\_form#56=84x14:\[ x = r \sin( t / \gamma_e ), \\ \]
+\_form#57=110x14:\[ y = r [\cos( t / \gamma_e ) - 1], \]
+\_form#58=71x16:$ r = \sqrt{\gamma_e^2 - 1} $
+\_form#59=13x9:$ \gamma_e $
+\_form#60=590x38:\[ I = \sum_m \hbar \omega_m |C_m|^2 = \frac{\hbar V }{\pi^3 c^3} \int \int \omega^3 \sum_\mathbf{p} |C|^2 \, d\omega \, d\Omega = \frac{e^2}{4 \pi^2 c^3} \int \int \omega^2 \sum_\mathbf{p} \left| \int \mathbf{v}(t) \mathbf{p} \exp \left[ i \omega t - i \mathbf{k r}(t) \right] \, dt \right|^2 \, d\omega \, d\Omega, \]
+\_form#61=20x13:$ W_m $
+\_form#62=598x39:\[ \frac{d^2 I}{d\omega d\Omega} = \frac{e^2}{4 \pi^2} \left\{ \frac{ \varepsilon^2 + \varepsilon'^2 }{ 2 \varepsilon^2 } \left| \int dt\, \frac{ \mathbf{n \times [(n - v) \times \dot v]} } { (1 - \mathbf{n v})^2 } \exp [ i \omega' ( t - \mathbf{n r} ) ] \right|^2 + \frac{ \omega^2 m^2 }{ 2 \varepsilon^4 } \left| \int dt\, \frac{ \mathbf{n \dot v} } { (1 - \mathbf{n v})^2 } \exp [ i \omega' ( t - \mathbf{n r} ) ] \right|^2 \right\} \]
+\_form#63=29x10:$ \hbar = 1 $
+\_form#64=28x9:$ c = 1 $
+\_form#65=46x14:$ \mathbf{n} = \mathbf{k} / \omega $
+\_form#66=56x10:$ \varepsilon' = \varepsilon - \omega $
+\_form#67=59x14:$ \omega' = \omega \varepsilon / \varepsilon' $
+\_form#68=598x31:\[ \frac{d}{dt} \frac{1}{1 - \mathbf{n v}} = \frac{ \mathbf{n \dot v} }{ (1 - \mathbf{n v})^2 }, \quad \frac{d}{dt} \frac{ \mathbf{ n \times [ n \times v ] } }{ 1 - \mathbf{n v} } = \frac{ \mathbf{ n \times [(n - v) \times \dot v] } }{ (1 - \mathbf{n v})^2 }, \quad \frac{d}{dt} \exp [ i \omega' ( t - \mathbf{n r} ) ] = i \omega' (1 - \mathbf{n v}) \exp [ i \omega' ( t - \mathbf{n r} ) ]. \]
+\_form#69=498x39:\[ \frac{d^2 I}{d\omega d\Omega} = \frac{e^2 \omega'^2}{4 \pi^2} \left\{ \frac{ \varepsilon^2 + \varepsilon'^2 }{ 2 \varepsilon^2 } \sum_\mathbf{p} \left| \int dt\, \mathbf{v p} \exp [ i \omega' ( t - \mathbf{n r} ) ] \right|^2 + \frac{ \omega^2 m^2 }{ 2 \varepsilon^4 } \left| \int dt\, \exp [ i \omega' ( t - \mathbf{n r} ) ] \right|^2 \right\}, \]
+\_form#70=60x14:$ \mathbf{n \times [n \times v]} $
+\_form#71=21x10:$ \mathbf{v p}_1 $
+\_form#72=21x10:$ \mathbf{v p}_2 $
+\_form#73=503x39:\[ W_m = \frac{e^2 \pi \omega'^2}{4 \omega^3 V} \left\{ \frac{ (\varepsilon^2 + \varepsilon'^2) }{ 2 \varepsilon^2 } \sum_\mathbf{p} \left| \int dt\, \mathbf{v p} \exp [ i \omega' ( t - \mathbf{n r} ) ] \right|^2 + \frac{ \omega^2 m^2 }{ 2 \varepsilon^4 } \left| \int dt\, \exp [ i \omega' ( t - \mathbf{n r} ) ] \right|^2 \right\}. \]
+\_form#74=14x9:$ \mathbf{p}_1 $
+\_form#75=28x14:$ \mathbf{ n r }(t) $
+\_form#76=64x14:$ \mathbf{n} = \mathbf{k}_m / \omega_m $
+\_form#77=73x14:$ 0 < \omega < \gamma_e / b $
+\_form#78=115x29:\[ n_\perp = 1 + \frac{\alpha b^2}{4 \pi} N_\perp(\chi), \]
+\_form#79=9x9:$ \chi $
+\_form#80=18x13:$ N_\perp $
+\_form#81=196x31:\[ N_\perp(\chi) = \left\{ \begin{array}{lr} 14/45, \quad &\chi \ll 1, \\ -1.65 \chi^{-4/3}, \quad &\chi \gg 1. \end{array} \right. \]
+\_form#82=11x10:$ N $
+\_form#83=35x14:$ B / B_{cr} $
+\_form#84=25x13:$ \omega t_{rf} $
+\_form#85=188x31:\[ N_\parallel(\chi) = \left\{ \begin{array}{lr} 8/45, \quad &\chi \ll 1, \\ -1.1 \chi^{-4/3}, \quad &\chi \gg 1. \end{array} \right. \]
+\_form#86=73x14:$ 0 < \omega < \gamma_p / b $
+\_form#87=39x11:$ 2 \times 10^9 $

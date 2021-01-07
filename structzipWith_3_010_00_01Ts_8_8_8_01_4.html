@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.19"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>jE /dʒeɪ iː/: Main Page</title>
+<title>jE /dʒeɪ iː/: zipWith&lt; 0, Ts... &gt; Struct Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -45,7 +45,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,16 +59,32 @@ $(function() {
 </iframe>
 </div>
 
-<div class="PageDoc"><div class="header">
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="structzipWith_3_010_00_01Ts_8_8_8_01_4-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">jE /dʒeɪ iː/ Documentation</div>  </div>
+<div class="title">zipWith&lt; 0, Ts... &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group__proposal__density.html">Proposal density</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><em>jE</em> allows to compute photon emission probability for a given electron (or muon) trajectory, with special attention to a number of QED effects. See <em>Modules</em> section above for description. <em>jE</em> home is <a href="https://github.com/EvgenyNerush/jE">here</a>.</p>
-<div class="image">
-<img src="jay-logo.png" alt=""/>
-</div>
- </div></div><!-- PageDoc -->
+
+<p><code>#include &lt;<a class="el" href="proposal__density_8hpp_source.html">proposal_density.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a0af0100e6f87bce744bd54c9f9e31cf8"><td class="memItemLeft" align="right" valign="top"><a id="a0af0100e6f87bce744bd54c9f9e31cf8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>operator()</b> (auto f, std::tuple&lt; Ts... &gt; &amp;x, const std::tuple&lt; Ts... &gt; &amp;y)</td></tr>
+<tr class="separator:a0af0100e6f87bce744bd54c9f9e31cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename... Ts&gt;<br />
+struct zipWith&lt; 0, Ts... &gt;</h3>
+
+<p>Specialization of <a class="el" href="structzipWith.html">zipWith</a> for i = 0, to end-up the recursion used in the code. Partial specialization is not allowed for functions, hence <a class="el" href="structzipWith.html">zipWith</a> is a C++ functor, not a function. See <a href="http://artlang.net/post/c++11-obkhod-elementov-kortezhe-std-tuple/">this post</a> for some details (in Russian). </p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li>/home/eugn/Code/jE/src/<a class="el" href="proposal__density_8hpp_source.html">proposal_density.hpp</a></li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
